@@ -20,9 +20,9 @@ def get_random_file(path):
 	return random_filename 	 
 
 path = "/Users/User/Pictures/DailyDose"
-gmailUser = 'leilarae.dailydose@gmail.com'
-gmailPassword = 'Weekndmakesmewet69'
-recipients = ['mihailistov@gmail.com', 'laza6510@mylaurier.ca']
+gmailUser = 'example@gmail.com'
+gmailPassword = '******************'
+recipients = ['example@gmail.com']
 message='Hey babe, here is your daily dose of Vitamin D ;)'
 
 msg = MIMEMultipart()
