@@ -23,7 +23,7 @@ path = "/Users/User/Pictures/DailyDose"
 gmailUser = 'example@gmail.com'
 gmailPassword = '******************'
 recipients = ['example@gmail.com']
-message='Hey babe, here is your daily dose of Vitamin D ;)'
+message='Your daily dose'
 
 msg = MIMEMultipart()
 msg['From'] = gmailUser
