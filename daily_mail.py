@@ -28,7 +28,7 @@ message='Your daily dose'
 msg = MIMEMultipart()
 msg['From'] = gmailUser
 msg['To'] = ", ".join(recipients) 
-msg['Subject'] = "Daily Delia Dose"
+msg['Subject'] = "Daily Dose"
 msg.attach(MIMEText(message))
 
 ImgFileName = get_random_file(path)
